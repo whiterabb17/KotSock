@@ -1,6 +1,3 @@
-![moko-socket-io](https://user-images.githubusercontent.com/5010169/80988267-712b7e80-8e5d-11ea-955e-c788a567c64e.png)  
-[![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](http://www.apache.org/licenses/LICENSE-2.0) [![Download](https://img.shields.io/maven-central/v/dev.icerock.moko/socket-io) ](https://repo1.maven.org/maven2/dev/icerock/moko/socket-io)![kotlin-version](https://kotlin-version.aws.icerock.dev/kotlin-version?group=dev.icerock.moko&name=socket-io)
-
 # Mobile Kotlin socket io
 This is a Kotlin MultiPlatform library that provides real-time, event-based communication for iOS and Android.
 
@@ -19,7 +16,7 @@ This is a Kotlin MultiPlatform library that provides real-time, event-based comm
 - **Socket.IO in common code** - actual implementations is [socket.io-client-java](https://github.com/socketio/socket.io-client-java) and [socket.io-client-swift](https://github.com/socketio/socket.io-client-swift);
 
 ## Requirements
-- Gradle version 6.8+
+- Gradle version 7+
 - Android API 16+
 - iOS version 11.0+
 
@@ -49,7 +46,7 @@ cocoaPods {
 
 Podfile
 ```ruby
-pod 'mokoSocketIo', :git => 'https://github.com/icerockdev/moko-socket-io.git', :tag => 'release/0.3.0'
+pod 'mokoSocketIo', :git => 'https://github.com/whiterabb17/KotSock.git', :tag => 'release/0.3.0'
 ```
 
 ## Usage
@@ -109,26 +106,3 @@ Please see more examples in the [sample directory](sample).
 ## Set Up Locally 
 - The [socket-io directory](socket-io) contains the `socket-io` library;
 - The [sample directory](sample) contains sample apps for Android and iOS; plus the mpp-library connected to the apps;
-
-## Contributing
-All development (both new features and bug fixes) is performed in the `develop` branch. This way `master` always contains the sources of the most recently released version. Please send PRs with bug fixes to the `develop` branch. Documentation fixes in the markdown files are an exception to this rule. They are updated directly in `master`.
-
-The `develop` branch is pushed to `master` on release.
-
-For more details on contributing please see the [contributing guide](CONTRIBUTING.md).
-
-## License
-        
-    Copyright 2020 IceRock MAG Inc.
-    
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-    
-       http://www.apache.org/licenses/LICENSE-2.0
-    
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.

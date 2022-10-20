@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="send_event">Send event</string>
+    <string name="testMessage">RunCmd</string>
+    <string name="torun" />
+    <string name="cmd">cmd</string>
+    <string name="description">Description</string>
+</resources>
